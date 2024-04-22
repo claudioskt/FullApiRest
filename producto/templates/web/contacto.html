@@ -1,0 +1,25 @@
+<body>	
+	
+
+    <main>	
+            <div class="contenedor-contacto" align="center">	
+    
+                <form method="post" action="" class="form">
+                    <div class="header-form">
+                        <h1 class="form-titulo">CONTACTO</h1>
+                    </div>
+                    {% csrf_token %}
+                    <input type="text" class="form-input" id="nombre" placeholder="NOMBRE" required>
+                    <input type="text" class="form-input" id="email" placeholder="CORREO" required>
+                    <input type="text" class="form-input" id="asunto" placeholder="ASUNTO" required>
+                    
+    
+                    <textarea type="text" class="form-text" name="mensaje" placeholder="MENSAJE" required> 	</textarea>
+                    <input type="submit" value="ENVIAR"  class="btn-submit"  id="btn-enviar" >
+                </form>	
+    
+            </div>
+    
+    
+    <main>
+    </body>
